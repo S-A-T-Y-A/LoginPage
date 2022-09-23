@@ -1,0 +1,140 @@
+@charset "ISO-8859-1";
+
+@import
+	url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,700&display=swap')
+	;
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: 'Ubuntu Mono', monospace;
+}
+
+.row h4 {
+    /* border: 1px solid black; */
+    width: 120px;
+    text-align: center;
+}
+
+nav h4 {font-size: 2em;text-align: right;width: 43%;}
+
+.mainusername {
+    font-size: 40px;
+    font-weight: 700;
+    width: 50%;
+    /* text-align: center; */
+    padding-left: 70px;
+}
+
+.headline{
+	color:#b90000;
+}
+
+.headline h3 {
+    margin-left: 8px;
+}
+
+
+
+body {
+	
+	background-color: #1c1c1c;
+	height: 90vh;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	/* overflow: hidden; */
+}
+
+.content{
+	margin:
+	auto;
+	margin-top:40px;
+	width:90%;
+	min-height: 600px;
+	background-color:
+	rgba(225, 236, 239, 0.61);
+	display:
+	flex;
+	justify-content:
+	space-evenly;
+	flex-direction:
+	column;
+	align-items: center;
+	/* height: 95%; */
+}
+nav{
+	/* border:1px solid black; */
+	width:90%;
+	padding:10px ;
+	margin:
+	auto;
+	align-self: flex-start;
+	/* justify-self: flex-start; */
+	margin-top: 30px;
+	display:
+	flex;
+	justify-content: space-between;
+	align-items: center;
+	align-content: space-around;
+}
+.btns{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	min-width:200px;
+	width: 42%;
+}
+
+.btn{
+	width: 135px;
+	padding: 10px 0px;
+	border-radius:5px;
+	background-color: black;
+	color:
+	white;
+	font-weight: 700;
+	text-decoration: none;
+	font-size: 15px;
+	letter-spacing: 2px;
+	/* text-align: center; */
+	display: flex;
+	/* flex-direction: row; */
+	justify-content: space-around;
+	cursor:
+	pointer;
+	transition:
+	all 0.1s ease-in;
+}
+.btn:hover{
+	background-color: transparent;
+	color:black;
+}
+
+
+.container{
+    margin: 40px 0px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    /* border-radius: 10px; */
+    justify-content: flex-start;
+    align-items: center;
+    /* border: 1px solid black; */
+    /* visibility:
+    hidden; */
+    /* height:400px; */
+}
+
+.row{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #dae1de;
+    border-radius: 15px;
+    margin: 10px 0px;
+    padding: 13px 3px;
+    align-content: flex-end;
+    flex-direction: row;
+}
